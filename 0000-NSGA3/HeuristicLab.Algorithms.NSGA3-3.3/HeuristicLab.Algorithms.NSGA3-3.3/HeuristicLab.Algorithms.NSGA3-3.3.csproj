@@ -7,8 +7,8 @@
     <ProjectGuid>{557A23CE-9A5E-44F5-AEA2-4F4F33C1511F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EmptyAlgorithm</RootNamespace>
-    <AssemblyName>EmptyAlgorithm</AssemblyName>
+    <RootNamespace>HeuristicLab.Algorithms.NSGA3</RootNamespace>
+    <AssemblyName>HeuristicLab.Algorithms.NSGA3-3.3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -105,7 +105,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyAlgorithm.cs" />
+    <Compile Include="NSGA3.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
